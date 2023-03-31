@@ -1,0 +1,103 @@
+.a{
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    background-color: black;
+    left: 39%;
+    top: 40%;
+    animation: mover 3s, desvanecer 3s;
+    border-radius: 7px;
+}
+.d{
+
+    position: absolute;
+    font-size: 90px;
+    font-family: Georgia;
+    top: 40%;
+    left: 40%;
+    animation-duration: 5s;
+    animation-name: desaparecer;
+    
+}
+.i{
+
+    position: absolute;
+    font-size: 90px;
+    font-family: Georgia;
+    top: 40%;
+    left: 45%;
+    animation-duration: 4.10s;
+    animation-name: desaparecer;
+    
+}
+.e{
+
+    position: absolute;
+    font-size: 90px;
+    font-family: Georgia;
+    top: 40%;
+    left: 48%;
+    animation-duration: 4.5s;
+    animation-name: desaparecer;
+    
+}
+.g{
+
+    position: absolute;
+    font-size: 90px;
+    font-family: Georgia;
+    top: 40%;
+    left: 53%;
+    animation-duration: 4s;
+    animation-name: desaparecer;  
+}
+.o{
+
+    position: absolute;
+    font-size: 90px;
+    font-family: Georgia;
+    top: 40%;
+    left: 58%;
+    animation-duration: 3s;
+    animation-name: desaparecer;
+    
+}
+
+@keyframes mover{
+
+    50%{transform: translateX(300px);}   
+}
+
+@keyframes desaparecer{
+
+    1%{visibility: hidden;}
+    10%{visibility: hidden;}
+    20%{visibility: hidden;}
+    30%{visibility: hidden;}
+    40%{visibility: hidden;}
+    50%{visibility: hidden;}
+}
+@keyframes desvanecer{
+
+    0%{ opacity: 0;
+        
+    
+    }
+
+    25%{ opacity: 1;
+        background-color: blue;
+        
+    
+    }
+    
+    50%{ opacity: 0;  
+    }  
+
+    75%{ opacity: 1;
+        background-color: blue;  
+    }  
+
+    100%{ opacity: 0;
+          
+    }  
+}
